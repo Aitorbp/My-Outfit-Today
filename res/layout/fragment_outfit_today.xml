@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_gravity="center">
+
+
+    <ImageView
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="500dp"
+
+        android:background="@color/colorClaro"/>
+    <ImageView
+        android:id="@+id/weather"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+        android:textColor="@color/colorBaseBlue"
+        android:id="@+id/weatherTemp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="24dp"
+        />
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/nameCity"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="Ciudad"
+        android:textSize="20dp"/>
+    <ImageView
+        android:id="@+id/partUp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="200dp"
+        android:layout_height="150dp" />
+    <ImageView
+        android:id="@+id/partMiddle"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+    <ImageView
+        android:id="@+id/partFloor"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="200dp"
+        android:layout_height="80dp" />
+    <Button
+        android:id="@+id/updateClothe"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="50dp"
+        android:text="Update Cloth"
+        android:background="@color/colorBaseBlue"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</RelativeLayout>

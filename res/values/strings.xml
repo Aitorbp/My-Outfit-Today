@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyOutFit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="item_fill_image">Fill in all the image</string>
+    <string name="item_fill_name">Fill in all the name</string>
+    <string-array name="seasons">
+        <item>Winter</item>
+        <item>Summer</item>
+    </string-array>
+
+    <string-array name="typeOfClothe">
+        <item>T-Shirt</item>
+        <item>Short</item>
+        <item>Trousers</item>
+        <item>Footwear</item>
+        <item>Dress</item>
+        <item>Overcoat</item>
+        <item>Jersey</item>
+        <item>Shirt</item>
+    </string-array>
+</resources>

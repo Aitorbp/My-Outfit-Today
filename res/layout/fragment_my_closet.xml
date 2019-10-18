@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_gravity="center">
+    <GridView
+        android:background="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:id="@+id/gridView"
+        android:layout_width="330dp"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="27dp"
+        ></GridView>
+
+</RelativeLayout>
